@@ -31,5 +31,7 @@ document.getElementById('executeBtn').addEventListener('click', function() {
     console.log( true );
     console.log( false );
 
+    alert(firstName + ' ' + lastName);
+
     outputElement.textContent = firstName + ' ' + lastName;
 });
